@@ -20,7 +20,6 @@ $.fn.dataTableExt.oApi.fnStandingRedraw = function(oSettings) {
 
         // iDisplayStart has been reset to zero - so lets change it back
         oSettings._iDisplayStart = before;
-        oSettings.oApi._fnCalculateEnd(oSettings);
     }
      
     // draw the 'current' page
