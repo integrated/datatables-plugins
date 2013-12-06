@@ -44,7 +44,6 @@ $.fn.dataTableExt.oApi.fnAddDataAndDisplay = function ( oSettings, aData )
 	if( iPos >= 0 )
 	{
 		oSettings._iDisplayStart = ( Math.floor(i / oSettings._iDisplayLength) ) * oSettings._iDisplayLength;
-		this.oApi._fnCalculateEnd( oSettings );
 	}
 	 
 	this.oApi._fnDraw( oSettings );
